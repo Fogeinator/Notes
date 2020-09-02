@@ -93,4 +93,19 @@ Representational State Transfer
 ***break***
 
 # session 4 - exploring APIs
-### 
+### spotify for developers
+- SDK = software development kit, wraps around API
+- read the docs, find https://developer.spotify.com
+- web console can test the APIs, get JSON res on browser
+- the results are fast because they are cached - nobody can upload new songs every minute lmao
+- spotify v powerful, can see recommendeds
+- spotify APIcan build epic apps, and other APIs can build cool projects ***:P***
+[explored web console]
+
+# session 5 - APIs on CLI
+### twilio 
+- API company, help devs abstract away communications (whatsapp, calls, texts, telegram)
+- example - send txt msg to phone over CLI (but it does cost money tho, legit buy phone number lmao)
+[explored web console and CLI POST and GET]
+
+# session 6 - POSTman
