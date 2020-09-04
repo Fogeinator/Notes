@@ -96,7 +96,7 @@ Representational State Transfer
 ### spotify for developers
 - SDK = software development kit, wraps around API
 - read the docs, find https://developer.spotify.com
-- web console can test the APIs, get JSON res on browser
+- [web console](https://developer.spotify.com/console/get-artist-top-tracks/?country=SE&id=43ZHCT0cAZBISjO8DG9PnE) can test the APIs, get JSON res on browser 
 - the results are fast because they are cached - nobody can upload new songs every minute lmao
 - spotify v powerful, can see recommendeds
 - spotify APIcan build epic apps, and other APIs can build cool projects ***:P***
@@ -108,4 +108,8 @@ Representational State Transfer
 - example - send txt msg to phone over CLI (but it does cost money tho, legit buy phone number lmao)
 [explored web console and CLI POST and GET]
 
+[used this for spotify actually:](https://developer.spotify.com/console/get-search-item/)
+`curl -X "GET" "https://api.spotify.com/v1/search?q=Muse&type=track%2Cartist&market=US&limit=10&offset=5" -H "Accept: application/json" -H "Content-Type: application/json" -H "Authorization: Bearer BQBc3pJcTVLiuOc1TXOo8k4Vghzw5D5U9U92kCyacgETscEt52ubIfc7L6OAggb2bbCCznrf0ihCmO0LI7aJYq4Nf_vdYvgPPzWc21Ytkuegi0fEl3yN8ato2DDJv5Va9n5Cle9TFzFWrPUQvWlE"`
+
 # session 6 - POSTman
+### 
